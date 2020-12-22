@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;300&display=swap');
+$color:#ff5c33;
+*{
+	margin: 0;padding:0;
+	box-sizing: border-box;
+
+}
+body{
+ font-family: 'Barlow Condensed', sans-serif;
+ background: #e2e2e2; 
+}
+.container{
+	width: 940px;
+	margin: 50px auto 0;
+	background-color: #ffff;
+	padding: 15px;
+	border-radius: 5px;
+	display: grid;
+	grid-template-columns: 1fr 1fr; 
+}
+.discription{
+	margin-right:50px
+}
+.discription h1{
+	margin: 50px 0 10px 0;
+	font-weight: 300;
+}
+.discription p{
+	font-size: 15px
+}
+.discription span{
+	margin-top: 15px;
+	display: inline-block;
+	font-weight: 600;
+	font-size: 30px;
+	color: #353535;
+}
+.discription button{
+	font-size:18px;
+	padding: 15px 50px;
+	margin-top: 40px;
+	cursor: pointer;
+	border: 0;
+	outline: none;
+	color: #ffff;
+	box-shadow: 0 4px 6px 0 rgb(0,0,0,0.12);
+}
+.discription .buy{
+	background-color: #ff9f00;
+}
+.discription .cart{
+	background-color: #fb641b;
+	margin-left: 20px
+}
+ ul li{
+     
+	list-style: none;
+	display: inline;
+   }
+ul{
+	margin-top: 10px;
+    padding: 70px;
+}
